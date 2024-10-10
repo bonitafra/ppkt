@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    background-image: url("grup.jpg");
+    background-size: cover;
+    background-attachment: fixed; /* Keeps the background fixed */
+    border: 20%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(39, 129, 17);
+}
+
+
+nav {
+    background-color: #0b801a; /* Background color */
+    padding: 10px 20px; /* Padding untuk navbar */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0; /* Menghilangkan margin default */
+    padding: 0; /* Menghilangkan padding default */
+    justify-content: center; /* Mengatur agar item rata tengah */
+}
+
+nav ul li {
+    margin: 0 20px; /* Margin antar item */
+}
+
+nav ul li a {
+    color: #ffffff; /* Warna link */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    font-size: 18px; /* Ukuran font */
+    padding: 5px 10px; /* Padding untuk menambah area klik */
+    border-radius: 5px; /* Sudut melengkung */
+    transition: background-color 0.3s; /* Transisi warna latar belakang */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Warna latar belakang saat hover */
+    border-radius: 5px; /* Sudut melengkung saat hover */
+}
+
+
+.hero-section {
+    height: 100vh;
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.hero-content p {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.btn {
+    background-color: #66b456; /* Button color */
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 1200px; /* Limits width */
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #3ccd68; /* Border for containers */
+    border-radius: 8px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.9); /* Background for containers */
+}
+
+section {
+    padding: 40px 20px; /* Padding for sections */
+    text-align: center;
+    border: 40px;
+}
+
+.profil {
+    padding: 20px; /* Padding inside the box */
+    text-align: center;
+    background-image: url("DESA.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    border: 10px solid #fff; /* Border 10px dengan warna putih */
+    color: white;
+    box-sizing: border-box; /* Pastikan padding dan border termasuk dalam ukuran total */
+}
+
+
+
+#profile {
+    margin-bottom: 30px; /* Space between sections */
+    border: black;
+    border: 20px;
+}
+
+#program {
+    margin-bottom: 30px; /* Space between sections */
+}
+
+#program .program-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#program .program-list li {
+    background-color: #ffffff; /* Program item color */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 15px;
+    color: #000000;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #17572c;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #286781;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 20px solid #0f552c;
+    border-radius: 5px;
+}
+
+#forum-results {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333; /* Warna gelap */
+    color: white; /* Warna teks putih */
+    border: 1px solid #555; /* Border yang lebih terang */
+    border-radius: 5px; /* Membuat sudut sedikit melengkung */
+}
+
+#forum-results div {
+    margin-bottom: 10px; /* Jarak antar kiriman */
+    padding: 5px; /* Padding di dalam setiap kiriman */
+    background-color: #444; /* Warna latar belakang kiriman */
+    border-radius: 3px; /* Sudut melengkung untuk kiriman */
+}
+
+
+footer {
+    background-color: #082c3c; /* Dark footer */
+    color: #208140;
+    text-align: center;
+    padding: 20px 0;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempat Pendidikan Al-Qur'an (TPQ)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #175324;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #135517;
+            background-size: cover;
+            background-attachment: fixed;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            text-align: center;
+        }
+
+        #galeri {
+            text-align: center;
+            margin: 20px;
+            color: #f7f7f7;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-item {
+            background-color: #fff;
+            border: 5px solid #135517;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            height: 150px; /* Set a fixed height */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="galeri">
+        <h2>Galeri Kegiatan TPQ</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="t1.jpeg" alt="Kegiatan TPQ 1">
+            </div>
+            <div class="gallery-item">
+                <img src="t2.jpeg" alt="Kegiatan TPQ 2">
+            </div>
+            <div class="gallery-item">
+                <img src="t3.jpeg" alt="Kegiatan TPQ 3">
+            </div>
+            <div class="gallery-item">
+                <img src="t4.jpeg" alt="Kegiatan TPQ 4">
+            </div>
+           
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tempat Pendidikan Al-Qur'an (TPQ). Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
